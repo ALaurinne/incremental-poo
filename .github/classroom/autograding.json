@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "UtilsTest#aloMundoImprimeTextoCorreto",
+      "setup": "",
+      "run": "mvn -q -B -ntp -Dtest=UtilsTest#aloMundoImprimeTextoCorreto test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "UtilsTest#aloMundoMoveCursorParaBaixo",
+      "setup": "",
+      "run": "mvn -q -B -ntp -Dtest=UtilsTest#aloMundoMoveCursorParaBaixo test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "UtilsTest#desenhaRetanguloImprimeTextoCorreto",
+      "setup": "",
+      "run": "mvn -q -B -ntp -Dtest=UtilsTest#desenhaRetanguloImprimeTextoCorreto test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "UtilsTest#desenhaRetanguloUsaCorCorreta",
+      "setup": "",
+      "run": "mvn -q -B -ntp -Dtest=UtilsTest#desenhaRetanguloUsaCorCorreta test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "UtilsTest#desenhaRetanguloRestauraCor",
+      "setup": "",
+      "run": "mvn -q -B -ntp -Dtest=UtilsTest#desenhaRetanguloRestauraCor test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }   
+  ]
+}
