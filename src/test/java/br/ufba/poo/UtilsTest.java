@@ -38,7 +38,7 @@ public class UtilsTest {
 		terminal.setPosition(2, 2);
 		Utils.aloMundo(terminal);
 		terminal.draw();
-		String expected = "Alo mundo!";
+		String expected = "Alo mundo ";
 		String actual = stringAt(terminal, 2, 2, 10);
 		assertEquals(expected, actual);
 	}

@@ -44,7 +44,7 @@ public class Utils {
 	 * @param terminal terminal onde a mensagem será impressa
 	 */
 	public static void aloMundo(MyTerminal terminal) {
-		terminal.println("Alo mundo!");
+		terminal.println("Alo mundo");
 	}
 
 	/*
