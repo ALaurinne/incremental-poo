@@ -22,7 +22,20 @@ public class Utils {
 	 * @param color cor do retângulo
 	 */
 	public static void desenhaRetangulo(MyTerminal terminal, int x, int y, int w, int h, TextColor color) {
-		// TODO: implemente o método
+		
+		TextColor defaultColor = terminal.getForegroundColor();
+		
+		terminal.setForegroundColor(color);
+		
+		for(int i = 0; i < h ; i++) {
+			terminal.setPosition(x, y+i);
+			for(int j = 0; j < w; j++) {
+				terminal.print("#");
+			}
+			terminal.println("");
+		}
+		
+		terminal.setForegroundColor(defaultColor);
 	}
 	
 	/**
@@ -31,7 +44,7 @@ public class Utils {
 	 * @param terminal terminal onde a mensagem será impressa
 	 */
 	public static void aloMundo(MyTerminal terminal) {
-		// TODO: implemente o método
+		terminal.println("Alo mundo!");
 	}
 
 	/*
